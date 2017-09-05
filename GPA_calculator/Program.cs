@@ -16,6 +16,7 @@ namespace GPA_calculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Console.WriteLine(Support.getGradePoint("B-"));
             Application.Run(new GPA_calc());
         }
     }
