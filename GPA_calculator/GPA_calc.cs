@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace GPA_calculator
 {
-    public partial class GPA_calc : Form
+    public partial class GPA_calc : Form        //Chameera Rupasinghe
     {
         public GPA_calc()
         {

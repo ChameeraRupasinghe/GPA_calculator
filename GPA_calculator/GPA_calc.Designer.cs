@@ -36,7 +36,6 @@
             this.lblMod_6 = new System.Windows.Forms.Label();
             this.lblMod_7 = new System.Windows.Forms.Label();
             this.lblMod_8 = new System.Windows.Forms.Label();
-            this.lblCredits_1 = new System.Windows.Forms.Label();
             this.lblCredits_2 = new System.Windows.Forms.Label();
             this.lblCredits_3 = new System.Windows.Forms.Label();
             this.lblCredits_4 = new System.Windows.Forms.Label();
@@ -59,6 +58,8 @@
             this.btnCalc = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.lblCredits_1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblMod_1
@@ -133,15 +134,6 @@
             this.lblMod_8.Size = new System.Drawing.Size(57, 13);
             this.lblMod_8.TabIndex = 7;
             this.lblMod_8.Text = "Module 08";
-            // 
-            // lblCredits_1
-            // 
-            this.lblCredits_1.AutoSize = true;
-            this.lblCredits_1.Location = new System.Drawing.Point(204, 17);
-            this.lblCredits_1.Name = "lblCredits_1";
-            this.lblCredits_1.Size = new System.Drawing.Size(108, 13);
-            this.lblCredits_1.TabIndex = 8;
-            this.lblCredits_1.Text = "Credits: Not Assinged";
             // 
             // lblCredits_2
             // 
@@ -453,11 +445,30 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // lblCredits_1
+            // 
+            this.lblCredits_1.AutoSize = true;
+            this.lblCredits_1.Location = new System.Drawing.Point(204, 17);
+            this.lblCredits_1.Name = "lblCredits_1";
+            this.lblCredits_1.Size = new System.Drawing.Size(108, 13);
+            this.lblCredits_1.TabIndex = 8;
+            this.lblCredits_1.Text = "Credits: Not Assinged";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(124, 81);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 30;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // GPA_calc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(460, 456);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnCalc);
@@ -506,7 +517,6 @@
         private System.Windows.Forms.Label lblMod_6;
         private System.Windows.Forms.Label lblMod_7;
         private System.Windows.Forms.Label lblMod_8;
-        private System.Windows.Forms.Label lblCredits_1;
         private System.Windows.Forms.Label lblCredits_2;
         private System.Windows.Forms.Label lblCredits_3;
         private System.Windows.Forms.Label lblCredits_4;
@@ -529,6 +539,8 @@
         private System.Windows.Forms.Button btnCalc;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblCredits_1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
